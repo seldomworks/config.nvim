@@ -5,4 +5,4 @@ local map = vim.api.nvim_set_keymap
 map('i', 'jk', '', {})
 
 -- Toggle nvim-tree
-map('n', 'N', [[:NvimTreeToggle]], {})
+-- map('n', 'N', [[:NvimTreeToggle]], {})
