@@ -51,3 +51,13 @@ require('orgmode').setup({
   org_agenda_files = {'~/OneDrive - Qualcomm/org/*', '~/my-orgs/**/*'},
   org_default_notes_file = '~/OneDrive - Qualcomm/org/refile.org',
 })
+-- let s:fontsize = 14
+-- function! AdjustFontSize(amount)
+--   let s:fontsize = s:fontsize+a:amount
+--   :execute "GuiFont! Consolas:h" . s:fontsize
+-- endfunction
+-- 
+-- noremap <C-ScrollWheelUp> :call AdjustFontSize(1)<CR>,
+-- noremap <C-ScrollWheelDown> :call AdjustFontSize(-1)<CR>
+-- inoremap <C-ScrollWheelUp> <Esc>:call AdjustFontSize(1)<CR>a
+-- inoremap <C-ScrollWheelDown> <Esc>:call AdjustFontSize(-1)<CR>a
